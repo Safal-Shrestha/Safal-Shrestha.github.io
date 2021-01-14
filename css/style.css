@@ -74,18 +74,13 @@ h2 {
 	color: #161a1b;
 }
 
-#countdown div span {
+#clock {
 	display:block;
-	font-size: 50px;
-	line-height: 50px;
+	font-size: 160px;
+	line-height: 160px;
 	letter-spacing: initial;
 	font-weight: 100;
 	text-transform: uppercase;
-}
-
-#countdown div {
-	display:inline-block;
-    margin: 0 34px;
 }
 
 .sub-title {
@@ -194,12 +189,28 @@ h2 {
 	list-style-type: none;
 }
 
+.contact .download {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	list-style: none;
+	list-style-type: none;
+}
+
+
 .contact .icons li {
 	display: inline-block;
 	margin-right: 10px;
 }
 
+.contact .download li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
 .contact .icons li:last-of-type { margin-right: 0px; }
+.contact .download li:last-of-type { margin-right: 0px; }
 
 .contact .icons li a {
 	display: block;
@@ -213,6 +224,17 @@ h2 {
 	font-size: 24px;
 }
 
+.contact .download li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	opacity: .5;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	color: black;
+	font-size: 20px;
+}
 
 .contact .icons li a:hover {
 	opacity: 1;
@@ -220,6 +242,14 @@ h2 {
 	-moz-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
+
+.contact .download li a:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
 
 .contact a.mail {
 	text-decoration: none;
@@ -330,11 +360,11 @@ h2 {
 @media (max-width: 320px) {
 	/* HERO */
 	h1 { font-size: 40px; line-height: 40px; }
-	#countdown div span {font-size: 24px; line-height: 34px;}
-	.sub-title { font-size: ; line-height: ; margin-top: 10px; }
+	#clock div span {font-size: 24px; line-height: 34px;}
 	/* TITLE & CONTACT */
 	.title { top: 15%;}
 	.contact .icons { margin-bottom: 0px; }
+	.contact .download { margin-bottom: 0px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(0.6);
@@ -408,11 +438,11 @@ h2 {
 @media all and (min-width: 400px) {
 	/* HERO */
 	h1 { font-size: 40px; line-height: 40px; }
-	#countdown div span {font-size: 24px; line-height: 34px;}
-	.sub-title { font-size: ; line-height: ; margin-top: 10px; }
+	#clock div span {font-size: 24px; line-height: 34px;}
 	/* TITLE & CONTACT */
 	.title { top: 15%;}
 	.contact .icons { margin-bottom: 0px; }
+	.contact .download { margin-bottom: 0px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(0.6);
@@ -491,6 +521,7 @@ h2 {
 	.line { margin-top: 20px; }
 	.contact { bottom: 10%; }
 	.contact .icons { margin-bottom: 12px; }
+	.contact .download { margin-bottom: 1px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(1);
@@ -568,13 +599,14 @@ h2 {
 	/* HERO */
 	h1 { font-size: 120px; line-height: 120px; }
 
-	#countdown div span {font-size: 34px; line-height: 34px;}
+	#clock div span {font-size: 34px; line-height: 34px;}
 	
 	.sub-title { font-size: 20px; line-height: 20px; margin-top: 20px; }
 	/* TITLE & CONTACT */
 	.title { top: 15%;}
 	.contact { bottom: 8%; }
 	.contact .icons { margin-bottom: 12px; }
+	.contact .download { margin-bottom: 1px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(1);
@@ -650,7 +682,7 @@ h2 {
 @media all and (min-width: 1200px) {
 	/* HERO */
 	h1 { font-size: 150px; line-height: 150px; }
-	#countdown div span {font-size: 44px; line-height: 44px;}
+	#clock div span {font-size: 44px; line-height: 44px;}
 	.sub-title { font-size: 25px; line-height: 25px; margin-top: 20px; }
 	/* SIZES */
 	.sphere img{
@@ -838,7 +870,7 @@ h2 {
 @media all and (min-width: 1600px) {
 	/* HERO */
 	h1 { font-size: 180px; line-height: 180px; }
-	#countdown div span {font-size: 54px; line-height: 54px;}
+	#clock div span {font-size: 54px; line-height: 54px;}
 	.sub-title { font-size: 25px; line-height: 25px; margin-top: 25px; }
 }
 
