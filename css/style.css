@@ -194,14 +194,41 @@ h2 {
 	list-style-type: none;
 }
 
+.contact .download {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	list-style: none;
+	list-style-type: none;
+}
+
 .contact .icons li {
 	display: inline-block;
 	margin-right: 10px;
 }
 
+.contact .download li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
 .contact .icons li:last-of-type { margin-right: 0px; }
+.contact .download li:last-of-type { margin-right: 0px; }
 
 .contact .icons li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	opacity: .5;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	color: black;
+	font-size: 24px;
+}
+
+.contact .download li a {
 	display: block;
 	width: 25px;
 	height: 25px;
@@ -221,6 +248,12 @@ h2 {
 	transition: opacity 0.3s;
 }
 
+.contact .download li a:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
 .contact a.mail {
 	text-decoration: none;
 	color: #161a1b;
