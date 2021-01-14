@@ -7,10 +7,6 @@
 	border-bottom: 5px solid transparent;
 }
 
-.contact .download li a:hover {
-	border-bottom: 5px solid transparent;
-}
-
 /* HERO */
 h1 { font-size: 120px; line-height: 120px; }
 .sub-title { font-size: 20px; line-height: 20px; margin-top: 20px; }
@@ -18,7 +14,6 @@ h1 { font-size: 120px; line-height: 120px; }
 .title { top: 15%;}
 .contact { bottom: 8%; }
 .contact .icons { margin-bottom: 12px; }
-.contact .download { margin-bottom: 1px; }
 /* SIZES */
 .sphere img{
 	-webkit-transform: scale(1);
