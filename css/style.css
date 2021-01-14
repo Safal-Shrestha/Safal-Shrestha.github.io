@@ -526,7 +526,7 @@ h2 {
 	.line { margin-top: 20px; }
 	.contact { bottom: 10%; }
 	.contact .icons { margin-bottom: 12px; }
-	.contact .downlaod { margin-bottom: 1px; }
+	.contact .download { margin-bottom: 1px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(1);
@@ -611,7 +611,7 @@ h2 {
 	.title { top: 15%;}
 	.contact { bottom: 8%; }
 	.contact .icons { margin-bottom: 12px; }
-	.contact .downlaod { margin-bottom: 1px; }
+	.contact .download { margin-bottom: 1px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(1);
