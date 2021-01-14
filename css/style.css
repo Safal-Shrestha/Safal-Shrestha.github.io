@@ -55,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2 { margin: 0; }
+h1, h2, h6 { margin: 0; }
 
 h1 {
 	font-size: 80px;
@@ -73,6 +73,16 @@ h2 {
 	text-transform: uppercase;
 	color: #161a1b;
 }
+
+h6 {
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #161a1b;
+}
+
 
 #countdown div span {
 	display:block;
