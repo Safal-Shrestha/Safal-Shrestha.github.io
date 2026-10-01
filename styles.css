@@ -273,16 +273,26 @@ nav a,
   margin-top: 7px;
 }
 .node-problem {
-  top: 12%;
-  left: 7%;
+  top: 25%;
+  left: 21%;
+  transform: translate(-50%, -50%);
 }
 .node-system {
-  top: 20%;
-  right: 2%;
+  top: 25%;
+  right: auto;
+  left: 79%;
+  transform: translate(-50%, -50%);
 }
 .node-feedback {
-  bottom: 13%;
-  right: 9%;
+  top: 75%;
+  right: auto;
+  left: 79%;
+  transform: translate(-50%, -50%);
+}
+.node-explore {
+  top: 75%;
+  left: 21%;
+  transform: translate(-50%, -50%);
 }
 .connections {
   position: absolute;

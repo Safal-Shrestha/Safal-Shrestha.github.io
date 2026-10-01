@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -21,7 +22,7 @@
     <nav>
       <a href="#work">Work</a>
       <a href="#thinking">Thinking</a>
-      <a href="#beyond">Beyond code</a>
+      <a href="#beyond">Beyond-Code</a>
       <a href="#about">About</a>
     </nav>
     <a class="nav-contact magnetic" href="mailto:shressafal05@gmail.com" data-profile="shressafal05@gmail.com" aria-label="Email shressafal05@gmail.com">Let's talk <span>↗</span></a>
@@ -32,7 +33,7 @@
       <div class="hero-grid">
         <div class="hero-copy reveal">
           <p class="eyebrow"><span class="pulse"></span> Aspiring systems engineer</p>
-          <h1>I like understanding <em>how things work.</em><br><span>Then I try to build them better.</span></h1>
+          <h1>I thrive on understanding <em>how things work.</em><br><span>Then I try to build them better.</span></h1>
           <p class="hero-lead">Backend, AI/ML and systems thinking. with a curiosity that extends beyond software into organizations, institutions and the systems people create.</p>
           <div class="hero-actions">
             <a class="button button-primary magnetic" href="#work">Explore the work <span>↓</span></a>
@@ -45,24 +46,26 @@
           <div class="node node-problem">PROBLEM</div>
           <div class="node node-system">SYSTEM</div>
           <div class="node node-feedback">FEEDBACK</div>
-          <svg class="connections" viewBox="0 0 500 500" aria-hidden="true">
-            <path d="M250 250 L105 125 M250 250 L395 135 M250 250 L390 375 M250 250 L115 380" />
+          <div class="node node-explore">EXPLORE</div>
+          <svg class="connections" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M250 250 L105 125 M250 250 L395 125 M250 250 L395 375 M250 250 L105 375" />
           </svg>
           <p class="visual-caption">problem → model → build → feedback</p>
         </div>
       </div>
-      <div class="scroll-cue"><span>01</span><div></div><span>scroll to explore</span></div>
+      <div class="scroll-cue"><span>00</span><div></div><span>scroll to explore</span></div>
     </section>
 
     <section id="work" class="section-pad section-dark">
-      <div class="section-heading reveal"><p class="eyebrow">01 / Selected systems</p><h2>Things I've tried to <em>make work.</em></h2><p>Not just a list of technologies. These are problems I chose to understand, decompose and build around.</p></div>
+      <div class="section-heading reveal"><p class="eyebrow">01 / Selected systems</p><h2>Things I've tried to <em>make work.</em></h2><p>These are problems I chose to understand, decompose and build around, and not just a list of technologies.</p></div>
       <div class="project-list">
         <a class="project-card featured reveal" href="https://github.com/Safal-Shrestha/bridge-guard" target="_blank" rel="noreferrer">
-          <div class="project-index">01</div><div class="project-main"><p class="project-type">Infrastructure intelligence · AI/ML</p><h3>GARUD</h3><p class="project-desc">A bridge health monitoring concept combining sensor data, backend services and machine learning to estimate infrastructure condition.</p><div class="tags"><span>Spring Boot</span><span>Python / ML</span><span>PostgreSQL</span><span>React</span></div></div><div class="project-arrow">↗</div>
+          <div class="project-index">01</div><div class="project-main"><p class="project-type">Disaster response · Systems</p><h3>AI Evacuation System</h3><p class="project-desc">A layered system connecting flood prediction, bridge health, survivability and dynamic evacuation routing.</p><div class="tags"><span>AI/ML</span><span>Backend</span><span>Routing</span></div></div><div class="project-arrow">↗</div>
         </a>
-        <article class="project-card reveal delay-1">
-          <div class="project-index">02</div><div class="project-main"><p class="project-type">Disaster response · Systems</p><h3>AI Evacuation System</h3><p class="project-desc">A layered system connecting flood prediction, bridge health, survivability and dynamic evacuation routing.</p><div class="tags"><span>AI/ML</span><span>Backend</span><span>Routing</span></div></div><div class="project-arrow">↗</div>
-        </article>
+        <a class="project-card reveal delay-1" href="https://github.com/bipin-thapa01/fair-2026" target="_blank" rel="noreferrer">
+          <div class="project-index">02</div><div class="project-main"><p class="project-type">Infrastructure intelligence · AI/ML</p><h3>Bridge Guard</h3><p class="project-desc">A bridge health monitoring concept combining sensor data, backend services and machine learning to estimate infrastructure condition.</p><div class="tags"><span>Spring Boot</span><span>Python / ML</span><span>PostgreSQL</span><span>React</span></div></div><div class="project-arrow">↗</div>
+        </a>
+        
         <a class="project-card reveal delay-2" href="https://github.com/Safal-Shrestha/traffic-violation-detection" target="_blank" rel="noreferrer">
           <div class="project-index">03</div><div class="project-main"><p class="project-type">Computer vision · Intelligent transport</p><h3>Traffic Intelligence</h3><p class="project-desc">A traffic violation detection system using edge computer vision, tracking, red-light rule evaluation, Nepali ANPR and evidence delivery.</p><div class="tags"><span>Computer Vision</span><span>Edge AI</span><span>ANPR</span></div></div><div class="project-arrow">↗</div>
         </a>
@@ -70,7 +73,7 @@
           <div class="project-index">04</div><div class="project-main"><p class="project-type">Civic technology · Backend</p><h3>Awaj</h3><p class="project-desc">A civic issue workflow exploring roles, departments, moderation, status transitions and accountable resolution.</p><div class="tags"><span>Rails</span><span>PostgreSQL</span><span>Pundit</span><span>AASM</span></div></div><div class="project-arrow">↗</div>
         </a>
       </div>
-      <div class="archive-link reveal"><a href="#about">More projects, experiments &amp; unfinished ideas <span>→</span></a></div>
+      <div class="archive-link reveal"><a href="https://github.com/Safal-Shrestha">More projects, experiments &amp; unfinished ideas <span>→</span></a></div>
     </section>
 
     <section id="thinking" class="thinking section-pad">
